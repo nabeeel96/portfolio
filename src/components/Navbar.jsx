@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
@@ -48,7 +47,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <a href="public/Nabeel-Resume.pdf" download="Nabeel-Frontend-Developer.pdf">
+        <a href="/Nabeel-Resume.pdf" download="Nabeel-Frontend-Developer.pdf">
         <button
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary download-icon'
           >
